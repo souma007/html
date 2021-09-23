@@ -1,1 +1,41 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Registration form</h1>
+<form>
+<p>Username <input type="text" name="username" /> 
+    password <input type="password" name="password" /> 
+    Email <input type="text" name="email" /> 
+</p>
+
+<h2>Which taxi do you require ?</h2>
+<p> 
+    <input type="radio" name="genre" value="Car"/>Car
+    <input type="radio" name="genre" value="Van"/>Van
+    <input type="radio" name="genre" value="Tuk Tuk"/>Tuk Tuk
+</p>
+<h2>Choose your extras</h2>
+<p> 
+    <input type="checkbox" name="extras" value="Baby seat"/>Car
+    <input type="checkbox" name="extras" value="Wheelchair access"/>Van
+    <input type="checkbox" name="extras" value="Privacy windows"/>Tuk Tuk
+</p>
+
+<h2>Where would you like us to pick you up?</h2>
+<p> 
+    Pickup Location <select name="address">
+        <option value="mtl">Select One</option>
+    </select>
+</p>
+
+<h2>Additional Instructions</h2>
+<p> 
+    Special <textarea name="comments" cols="20" row="2">
+    provide special instructions here
+    </textarea> 
+    <input type="submit" name="submit" value="Submit"/>
+</p>
+
+</form>
+</body>
+</html>
